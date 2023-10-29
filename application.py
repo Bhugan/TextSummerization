@@ -1,4 +1,4 @@
-import TensorFlow
+import tensorflow
 import streamlit as st
 from transformers import pipeline
 from PyPDF2 import PdfReader
