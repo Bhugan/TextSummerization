@@ -1,3 +1,2 @@
 TenrorFlow
-transformers
 pyPDF2
