@@ -1,4 +1,4 @@
-pip install tensorflow
+!pip install tensorflow
 import tensorflow
 import streamlit as st
 from transformers import pipeline
