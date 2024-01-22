@@ -19,8 +19,11 @@ def extract_text_from_pdf(file_path):
         text = page.extract_text()
     return text
 
-# Initial choice to analyze single text or document
-choice = st.sidebar.radio("Select your choice", ["Analyze Single Text", "Analyze Document"])
+# Title and choice
+st.title("Text and Document Analyzer")
+
+# User choice
+choice = st.radio("Select your choice", ["Analyze Single Text", "Analyze Document"])
 
 if choice == "Analyze Single Text":
     st.subheader("Analyze Single Text using Hugging Face Transformers")
